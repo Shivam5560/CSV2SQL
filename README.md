@@ -2,7 +2,7 @@
 
 A streamlined web application built with Streamlit that converts CSV files into SQL statements. This tool automatically detects column data types and generates both CREATE TABLE and INSERT statements for your data.
 
-![CSV to SQL Converter](https://placeholder.com/readme-header)
+![CSV to SQL Converter](https://csv-sql.streamlit.app/)
 
 ## Features
 
