@@ -6,9 +6,9 @@ body {
 
 .stButton {
     background-color: #FF6F61; /* Vibrant coral color */
-    color: white;               /* Button text color */
+    color: rgb(0, 0, 0);               /* Button text color */
     border-radius: 5px;
-    padding: 10px 20px;        /* Add padding for better size */
+    padding: 5px 5px;        /* Add padding for better size */
     font-size: 16px;            /* Increase font size */
 }
 
@@ -23,6 +23,7 @@ body {
 
 .stTextInput {
     background-color: #FFFFFF;    /* Input field background */
+    border-radius: 5px black;
 }
 
 h1 {
