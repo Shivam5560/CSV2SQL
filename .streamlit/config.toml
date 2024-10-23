@@ -1,6 +1,21 @@
 [theme]
-primaryColor = "#FF6F61"            # A vibrant coral color for primary elements
-backgroundColor = "#F0F4F8"          # A light grey background
-secondaryBackgroundColor = "#FFFFFF" # Pure white for secondary elements
-textColor = "#333333"                # Dark text color
+# Primary elements (buttons, interactive components)
+primaryColor = "#FF6F61"
+
+# Main background
+backgroundColor = "#F0F4F8"
+
+# Cards, input fields, expanders
+secondaryBackgroundColor = "#FFFFFF"
+
+# Main text color
+textColor = "#333333"
+
+# Font settings
 font = "sans serif"
+
+# Additional theme settings
+base = "light"
+
+# Accent colors
+headerColor = "#FF6F61"

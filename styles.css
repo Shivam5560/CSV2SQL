@@ -1,49 +1,71 @@
 /* styles.css */
 body {
-    background-color: #F0F4F8; /* Light grey background */
+    background-color: #F0F4F8;
     color: #333;
 }
 
 .stButton {
-    background-color: #FF6F61; /* Vibrant coral color */
-    color: rgb(0, 0, 0);               /* Button text color */
+    background-color: #FF6F61;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-    padding: 5px 5px;        /* Add padding for better size */
-    font-size: 16px;            /* Increase font size */
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.stButton > button {
+    width: auto !important;
+    padding: 5px 25px !important;
 }
 
 .stButton:hover {
-    background-color: #D55A50;  /* Darker shade on hover */
+    background-color: #D55A50;
 }
 
 .stExpanderHeader {
-    background-color: #FF6F61;   /* Expander header background */
-    color: white;                 /* Expander header text color */
+    background-color: #FF6F61;
+    color: white;
 }
 
-.stTextInput {
-    background-color: #FFFFFF;    /* Input field background */
-    border-radius: 5px black;
+.stTextInput > div > div > input {
+    background-color: #FFFFFF;
+    border: 2px solid #FF6F61 !important;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 8px 12px;
+}
+
+.upload-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 h1 {
     text-align: center;
-    color: #FF6F61;                /* Title color */
+    color: #FF6F61;
 }
 
 .stCode {
-    background-color: #FFFFFF;    /* Code block background */
+    background-color: #FFFFFF;
     border-radius: 5px;
-    color: #333;                  /* Code block text color */
+    color: #333;
 }
 
-/* Additional styling to ensure buttons are properly aligned */
 div.stButton {
     display: flex;
-    justify-content: center;      /* Center the button */
-    margin-top: 20px;            /* Space above the button */
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .stSidebar {
-    background-color: #FFFFFF;    /* Sidebar background */
+    background-color: #FFFFFF;
+}
+
+.info-text {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #FF6F61;
+    margin: 20px 0;
 }
