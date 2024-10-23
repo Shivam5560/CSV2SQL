@@ -1,8 +1,18 @@
-# CSV to SQL Converter
-
+<div align="center">
+  <a href="https://csv-sql.streamlit.app/">
+    <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="Streamlit Logo" width="80" height="80">
+  </a>
+  <h1 align="center">CSV to SQL Converter App</h1>
+  <p align="center">
+    A powerful CSV to SQL conversion tool built with Streamlit
+    <br />
+    <a href="https://csv-sql.streamlit.app/"><strong>Try the Live App »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
+CSV to SQL Converter
 A streamlined web application built with Streamlit that converts CSV files into SQL statements. This tool automatically detects column data types and generates both CREATE TABLE and INSERT statements for your data.
-
-![CSV to SQL Converter](https://csv-sql.streamlit.app/)
 
 ## Features
 
