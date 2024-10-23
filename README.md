@@ -36,8 +36,8 @@ A streamlined web application built with Streamlit that converts CSV files into 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/csv-to-sql-converter.git
-cd csv-to-sql-converter
+git clone https://github.com/Shivam5560/CSV2SQL.git
+cd CSV2SQL
 ```
 
 2. Create a virtual environment (optional but recommended):
@@ -48,7 +48,7 @@ source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
 3. Install required packages:
 ```bash
-pip install streamlit
+pip install -r requirements.txt
 ```
 
 4. Create the project structure:
