@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    background-color: #F0F4F8; /* Light grey background */
+    color: #333;
+}
+
+.stButton {
+    background-color: #FF6F61; /* Vibrant coral color */
+    color: white;               /* Button text color */
+    border-radius: 5px;
+    padding: 10px 20px;        /* Add padding for better size */
+    font-size: 16px;            /* Increase font size */
+}
+
+.stButton:hover {
+    background-color: #D55A50;  /* Darker shade on hover */
+}
+
+.stExpanderHeader {
+    background-color: #FF6F61;   /* Expander header background */
+    color: white;                 /* Expander header text color */
+}
+
+.stTextInput {
+    background-color: #FFFFFF;    /* Input field background */
+}
+
+h1 {
+    text-align: center;
+    color: #FF6F61;                /* Title color */
+}
+
+.stCode {
+    background-color: #FFFFFF;    /* Code block background */
+    border-radius: 5px;
+    color: #333;                  /* Code block text color */
+}
+
+/* Additional styling to ensure buttons are properly aligned */
+div.stButton {
+    display: flex;
+    justify-content: center;      /* Center the button */
+    margin-top: 20px;            /* Space above the button */
+}
+
+.stSidebar {
+    background-color: #FFFFFF;    /* Sidebar background */
+}
